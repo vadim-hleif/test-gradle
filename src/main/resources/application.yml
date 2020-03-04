@@ -1,8 +1,0 @@
-spring:
-  datasource:
-    url: jdbc:postgresql://localhost:5432/flyway_vs_liquibase
-    username: postgres
-    password: password
-  flyway:
-    baseline-on-migrate: true
-    baseline-description: V1__init_default_scheme.sql
