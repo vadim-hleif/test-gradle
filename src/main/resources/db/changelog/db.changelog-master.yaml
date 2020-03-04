@@ -3,3 +3,5 @@ databaseChangeLog:
       file: db/changelog/01-create-books-and-author-schema.sql
   - include:
       file: db/changelog/create-books-and-author-schema.sql
+  - include:
+      file: db/changelog/4.sql
